@@ -30,6 +30,7 @@
     "example:custom-properties": "ts-node ./examples/custom-properties.ts",
     "example:custom-media-queries": "ts-node ./examples/custom-media-queries.ts",
     "prebuild": "rimraf ./dist",
+    "prepublishOnly": "npm run build",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"
