@@ -36,6 +36,7 @@
     "version:patch": "standard-version -r patch"
   },
   "dependencies": {
+    "change-case": "^4.1.2",
     "colord": "^2.8.0"
   },
   "devDependencies": {

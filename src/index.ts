@@ -1,4 +1,5 @@
 import { colord } from 'colord'
+import { paramCase } from 'change-case'
 
 type CSSObject = {
   [key: string]: string | number | CSSObject
@@ -33,7 +34,7 @@ const toCSSVariables = (object: CSSObject, options?: Options) => {
   const addCSSVariable = (currentValue: CSSObject, parentKeys: string[]) => {
     Object.entries(currentValue).map(([key, value]) => {
       if (typeof value !== 'string' && typeof value !== 'number') {
-        addCSSVariable(value, [...parentKeys, key])
+        addCSSVariable(value, [...parentKeys, paramCase(key)])
       } else {
         cssVariables.push({
           key: `--${(options && options.prefix && `${options.prefix}-`) || ''}${[...parentKeys, key].join('-')}`,
