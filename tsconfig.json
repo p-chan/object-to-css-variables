@@ -1,0 +1,10 @@
+{
+  "extends": "@stardust-configs/tsconfig/node14.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "declaration": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./examples/**/*.ts"]
+}
