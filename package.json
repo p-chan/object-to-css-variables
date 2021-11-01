@@ -40,11 +40,11 @@
     "colord": "^2.8.0"
   },
   "devDependencies": {
-    "@stardust-configs/prettier-config": "^0.1.1",
-    "@stardust-configs/tsconfig": "^0.1.1",
+    "@stardust-configs/prettier-config": "0.1.1",
+    "@stardust-configs/tsconfig": "0.1.1",
     "@types/node": "16.11.6",
-    "prettier": "^2.4.1",
-    "rimraf": "^3.0.2",
+    "prettier": "2.4.1",
+    "rimraf": "3.0.2",
     "standard-version": "9.3.2",
     "ts-node": "10.4.0",
     "typescript": "4.4.4"
