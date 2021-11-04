@@ -1,5 +1,5 @@
 {
-  "extends": "@stardust-configs/tsconfig/node14.json",
+  "extends": "@stardust-configs/tsconfig/node16.json",
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "./",
