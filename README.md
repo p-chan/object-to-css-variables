@@ -105,7 +105,7 @@ toCustomPropertiesString(object, options)
 import { toCustomMediaQueriesArray, toCustomMediaQueriesString } from 'object-to-css-variables'
 
 const customMediaQueries = {
-  phone: '(max-width: 414px)',
+  phone: '(max-width: 428px)',
   tablet: '(max-width: 768px)',
   laptop: '(max-width: 1024px)',
   desktop: '(max-width: 1440px)',
@@ -114,7 +114,7 @@ const customMediaQueries = {
 toCustomMediaQueriesArray(customMediaQueries)
 /* log ->
 [
-  { key: '--phone', value: '(max-width: 414px)' },
+  { key: '--phone', value: '(max-width: 428px)' },
   { key: '--tablet', value: '(max-width: 768px)' },
   { key: '--laptop', value: '(max-width: 1024px)' },
   { key: '--desktop', value: '(max-width: 1440px)' }
@@ -123,7 +123,7 @@ toCustomMediaQueriesArray(customMediaQueries)
 
 toCustomMediaQueriesString(customMediaQueries)
 /* log ->
-@custom-media --phone (max-width: 414px); @custom-media --tablet (max-width: 768px); @custom-media --laptop (max-width: 1024px); @custom-media --desktop (max-width: 1440px);
+@custom-media --phone (max-width: 428px); @custom-media --tablet (max-width: 768px); @custom-media --laptop (max-width: 1024px); @custom-media --desktop (max-width: 1440px);
 */
 ```
 
