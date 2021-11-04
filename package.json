@@ -31,6 +31,7 @@
     "example:custom-media-queries": "ts-node ./examples/custom-media-queries.ts",
     "prebuild": "rimraf ./dist",
     "prepublishOnly": "npm run build",
+    "test": "jest",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"
@@ -40,9 +41,15 @@
     "colord": "^2.8.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
     "@stardust-configs/prettier-config": "^0.1.1",
     "@stardust-configs/tsconfig": "^0.1.1",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.10.2",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.3.1",
