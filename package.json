@@ -45,7 +45,7 @@
     "@babel/preset-env": "7.16.0",
     "@babel/preset-typescript": "7.16.0",
     "@stardust-configs/prettier-config": "0.1.1",
-    "@stardust-configs/tsconfig": "0.1.1",
+    "@stardust-configs/tsconfig": "0.2.0",
     "@types/jest": "27.0.2",
     "@types/node": "16.10.2",
     "babel-jest": "27.3.1",
