@@ -20,13 +20,14 @@
     "dist"
   ],
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/p-chan/object-to-css-variables.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "example:custom-properties": "ts-node ./examples/custom-properties.ts",
     "example:custom-media-queries": "ts-node ./examples/custom-media-queries.ts",
     "prebuild": "rimraf ./dist",
@@ -51,6 +52,7 @@
     "rimraf": "3.0.2",
     "standard-version": "9.5.0",
     "ts-node": "10.9.1",
+    "tsup": "6.2.3",
     "typescript": "4.8.4",
     "vitest": "0.24.1"
   }
