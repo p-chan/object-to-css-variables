@@ -30,6 +30,8 @@
     "build": "tsup",
     "example:custom-properties": "ts-node ./examples/custom-properties.ts",
     "example:custom-media-queries": "ts-node ./examples/custom-media-queries.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "prebuild": "rimraf ./dist",
     "prepublishOnly": "npm run build",
     "test": "vitest",
