@@ -44,12 +44,18 @@ describe('Custom Properties', () => {
         toCustomPropertiesArray({
           strongBlack: { 100: '#999999', 900: '#000000' },
           strongWhite: { 100: '#ffffff', 900: '#aaaaaa' },
+          black: { primary: '#000000', secondaryLight: '#111111' },
+          white: { primary: '#ffffff', secondaryDark: '#eeeeee' },
         })
       ).toEqual([
         { key: '--strong-black-100', value: '#999999' },
         { key: '--strong-black-900', value: '#000000' },
         { key: '--strong-white-100', value: '#ffffff' },
         { key: '--strong-white-900', value: '#aaaaaa' },
+        { key: '--black-primary', value: '#000000' },
+        { key: '--black-secondary-light', value: '#111111' },
+        { key: '--white-primary', value: '#ffffff' },
+        { key: '--white-secondary-dark', value: '#eeeeee' },
       ])
     })
 

@@ -37,7 +37,9 @@ const toCSSVariables = (object: CSSObject, options?: Options) => {
         addCSSVariable(value, [...parentKeys, paramCase(key)])
       } else {
         cssVariables.push({
-          key: `--${(options && options.prefix && `${options.prefix}-`) || ''}${[...parentKeys, key].join('-')}`,
+          key: `--${(options && options.prefix && `${options.prefix}-`) || ''}${[...parentKeys, paramCase(key)].join(
+            '-'
+          )}`,
           value,
         })
       }
