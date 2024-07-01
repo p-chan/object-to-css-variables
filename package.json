@@ -48,7 +48,7 @@
     "@stardust-configs/tsconfig": "0.4.0",
     "@types/node": "20.12.2",
     "prettier": "3.2.5",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.7",
     "standard-version": "9.5.0",
     "ts-node": "10.9.2",
     "tsup": "8.0.2",
