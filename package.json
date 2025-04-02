@@ -52,7 +52,7 @@
     "standard-version": "9.5.0",
     "ts-node": "10.9.2",
     "tsup": "8.4.0",
-    "typescript": "5.7.2",
+    "typescript": "5.8.2",
     "vitest": "2.1.9"
   },
   "standard-version": {
