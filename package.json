@@ -46,7 +46,7 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.3.0",
     "@stardust-configs/tsconfig": "0.4.0",
-    "@types/node": "20.19.27",
+    "@types/node": "24.10.9",
     "prettier": "3.7.4",
     "rimraf": "6.1.2",
     "standard-version": "9.5.0",
